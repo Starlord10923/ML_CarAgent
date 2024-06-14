@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1717707960",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Unity_Projects\\ML\\ML_Trial1\\venv\\Scripts\\mlagents-learn config/CarTrack1.yaml --initialize-from=CarTrack2LongServer --env=Builds/ServerBuild3/ML_Trial1 --num-envs=1 --run-id=CarTrack2LongServer2",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1717708055"
+    },
+    "total": 94.32990999999993,
+    "count": 1,
+    "self": 10.252567099999851,
+    "children": {
+        "run_training.setup": {
+            "total": 0.4385895000000346,
+            "count": 1,
+            "self": 0.4385895000000346
+        },
+        "TrainerController.start_learning": {
+            "total": 83.63875340000004,
+            "count": 1,
+            "self": 0.00036410000029718503,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 83.6383538,
+                    "count": 1,
+                    "self": 83.6383538
+                },
+                "TrainerController._save_models": {
+                    "total": 3.549999973984086e-05,
+                    "count": 1,
+                    "self": 3.549999973984086e-05
+                }
+            }
+        }
+    }
+}

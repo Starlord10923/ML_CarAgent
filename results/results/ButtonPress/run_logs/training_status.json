@@ -1,0 +1,105 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 500043,
+                "file_path": "results\\ButtonPress\\My Behavior\\My Behavior-500043.onnx",
+                "reward": 2.9703557312252964,
+                "creation_time": 1717181338.2232406,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "results\\ButtonPress\\My Behavior\\My Behavior-500043.onnx",
+                "reward": null,
+                "creation_time": 1717181537.4738255,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "results\\ButtonPress\\My Behavior\\My Behavior-500043.onnx",
+                "reward": null,
+                "creation_time": 1717181576.67312,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "results\\ButtonPress\\My Behavior\\My Behavior-500043.onnx",
+                "reward": null,
+                "creation_time": 1717181625.9995468,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "results\\ButtonPress\\My Behavior\\My Behavior-500043.onnx",
+                "reward": null,
+                "creation_time": 1717181862.6567621,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500043,
+            "file_path": "results\\ButtonPress\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1717181862.6567621,
+            "auxillary_file_paths": [
+                "results\\ButtonPress\\My Behavior\\My Behavior-500043.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    },
+    "ButtonPress": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\ButtonPress\\ButtonPress\\ButtonPress-0.onnx",
+                "reward": null,
+                "creation_time": 1717181977.2393835,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\ButtonPress\\ButtonPress-0.pt"
+                ]
+            },
+            {
+                "steps": 499988,
+                "file_path": "results\\ButtonPress\\ButtonPress\\ButtonPress-499988.onnx",
+                "reward": 1.850348837708318,
+                "creation_time": 1717182808.8043563,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\ButtonPress\\ButtonPress-499988.pt"
+                ]
+            },
+            {
+                "steps": 500001,
+                "file_path": "results\\ButtonPress\\ButtonPress\\ButtonPress-500001.onnx",
+                "reward": 1.8504176338974672,
+                "creation_time": 1717182809.1582654,
+                "auxillary_file_paths": [
+                    "results\\ButtonPress\\ButtonPress\\ButtonPress-500001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500001,
+            "file_path": "results\\ButtonPress\\ButtonPress.onnx",
+            "reward": 1.8504176338974672,
+            "creation_time": 1717182809.1582654,
+            "auxillary_file_paths": [
+                "results\\ButtonPress\\ButtonPress\\ButtonPress-500001.pt"
+            ]
+        }
+    }
+}

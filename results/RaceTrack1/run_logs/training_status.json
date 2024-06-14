@@ -1,0 +1,29 @@
+{
+    "RaceTrack1": {
+        "checkpoints": [
+            {
+                "steps": 41760,
+                "file_path": "results\\RaceTrack1\\RaceTrack1\\RaceTrack1-41760.onnx",
+                "reward": -0.9144444370435344,
+                "creation_time": 1717356150.1787152,
+                "auxillary_file_paths": [
+                    "results\\RaceTrack1\\RaceTrack1\\RaceTrack1-41760.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 41760,
+            "file_path": "results\\RaceTrack1\\RaceTrack1.onnx",
+            "reward": -0.9144444370435344,
+            "creation_time": 1717356150.1787152,
+            "auxillary_file_paths": [
+                "results\\RaceTrack1\\RaceTrack1\\RaceTrack1-41760.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

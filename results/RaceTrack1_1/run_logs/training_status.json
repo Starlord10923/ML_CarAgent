@@ -1,0 +1,38 @@
+{
+    "RaceTrack1": {
+        "checkpoints": [
+            {
+                "steps": 499966,
+                "file_path": "results\\RaceTrack1_1\\RaceTrack1\\RaceTrack1-499966.onnx",
+                "reward": null,
+                "creation_time": 1717362178.8193457,
+                "auxillary_file_paths": [
+                    "results\\RaceTrack1_1\\RaceTrack1\\RaceTrack1-499966.pt"
+                ]
+            },
+            {
+                "steps": 695022,
+                "file_path": "results\\RaceTrack1_1\\RaceTrack1\\RaceTrack1-695022.onnx",
+                "reward": null,
+                "creation_time": 1717362449.3612905,
+                "auxillary_file_paths": [
+                    "results\\RaceTrack1_1\\RaceTrack1\\RaceTrack1-695022.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 695022,
+            "file_path": "results\\RaceTrack1_1\\RaceTrack1.onnx",
+            "reward": null,
+            "creation_time": 1717362449.3612905,
+            "auxillary_file_paths": [
+                "results\\RaceTrack1_1\\RaceTrack1\\RaceTrack1-695022.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}

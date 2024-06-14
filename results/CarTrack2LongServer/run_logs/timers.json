@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1717712675",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Unity_Projects\\ML\\ML_Trial1\\venv\\Scripts\\mlagents-learn config/CarTrack1.yaml --env=Builds/ServerBuild2/ML_Trial1 --num-envs=1 --run-id=CarTrack2LongServer --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1717712690"
+    },
+    "total": 15.282236300000022,
+    "count": 1,
+    "self": 1.9668227999999885,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09912170000001197,
+            "count": 1,
+            "self": 0.09912170000001197
+        },
+        "TrainerController.start_learning": {
+            "total": 13.216291800000022,
+            "count": 1,
+            "self": 0.00015539999998281928,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.796199899999976,
+                    "count": 1,
+                    "self": 11.796199899999976
+                },
+                "trainer_threads": {
+                    "total": 9.000000318337698e-07,
+                    "count": 1,
+                    "self": 9.000000318337698e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4199356000000307,
+                    "count": 1,
+                    "self": 0.0082939000000124,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 1.4116417000000183,
+                            "count": 1,
+                            "self": 1.4116417000000183
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

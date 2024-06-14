@@ -1,0 +1,65 @@
+{
+    "CarTrack1": {
+        "checkpoints": [
+            {
+                "steps": 46999996,
+                "file_path": "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-46999996.onnx",
+                "reward": 82.50451239146328,
+                "creation_time": 1717761796.8972588,
+                "auxillary_file_paths": [
+                    "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-46999996.pt"
+                ]
+            },
+            {
+                "steps": 47999996,
+                "file_path": "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-47999996.onnx",
+                "reward": 86.70642729433932,
+                "creation_time": 1717762896.382332,
+                "auxillary_file_paths": [
+                    "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-47999996.pt"
+                ]
+            },
+            {
+                "steps": 48999996,
+                "file_path": "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-48999996.onnx",
+                "reward": 88.18206107501962,
+                "creation_time": 1717763944.84266,
+                "auxillary_file_paths": [
+                    "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-48999996.pt"
+                ]
+            },
+            {
+                "steps": 49999996,
+                "file_path": "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-49999996.onnx",
+                "reward": 67.76217388996386,
+                "creation_time": 1717764993.2432804,
+                "auxillary_file_paths": [
+                    "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-49999996.pt"
+                ]
+            },
+            {
+                "steps": 50001280,
+                "file_path": "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-50001280.onnx",
+                "reward": 69.36245401713822,
+                "creation_time": 1717764994.0972302,
+                "auxillary_file_paths": [
+                    "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-50001280.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 50001280,
+            "file_path": "results\\CarTrack2LongServerCont\\CarTrack1.onnx",
+            "reward": 69.36245401713822,
+            "creation_time": 1717764994.0972302,
+            "auxillary_file_paths": [
+                "results\\CarTrack2LongServerCont\\CarTrack1\\CarTrack1-50001280.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cpu"
+    }
+}
